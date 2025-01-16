@@ -1,0 +1,46 @@
+:root {
+    --var-primary: #E4193F;
+    --var-primary-dark: #B50022;
+    --var-secondary: #0B1677;
+    --var-dark: #252525;
+    --var-light: #EAEAEA;
+}
+
+.wy-side-nav-search {
+    background-color: var(--var-primary-dark);
+}
+
+.wy-nav-side {
+    background-color: var(--var-light);
+}
+
+.wy-menu-vertical a {
+    color: var(--var-dark);
+}
+
+.rst-versions .rst-current-version {
+    background-color: var(--var-primary);
+}
+
+.wy-nav-content a {
+    color: var(--var-primary);
+}
+
+.wy-menu-vertical a:hover {
+    background-color: var(--var-secondary);
+    color: var(--var-light);
+}
+
+.wy-menu-vertical li.toctree-l1.current>a {
+    background-color: var(--var-secondary);
+    border: 0;
+    color: var(--var-light);
+}
+
+.wy-menu-vertical li.current>a button.toctree-expand {
+    color: var(--var-light);
+}
+
+.wy-menu-vertical li.current ul {
+    background-color: #fff;
+}
