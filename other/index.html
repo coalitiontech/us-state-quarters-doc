@@ -63,6 +63,8 @@
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#checkoutlogin-messages-and-donation-system-toggle">Checkout/Login Messages and Donation system toggle</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#quick-order-form">Quick Order Form</a>
+    </li>
     </ul>
                 </li>
               </ul>
@@ -106,6 +108,15 @@ The donation_text is the text that shows on the checkout for the donation area.
 <p>To access the Theme Settings, please follow the instructions <a href="/#page-builder">here</a>.</p>
 <p>Then, while on the Design tab, click on the palette on the left, then on 'Optimized Checkout'. You will find the two checkboxes to toggle on/off.
 <img alt="toggle.png" src="../img/toggle.png" /></p>
+<h2 id="quick-order-form">Quick Order Form</h2>
+<p><img alt="quick-order.png" src="../img/quick-order.png" /></p>
+<p>The Quick Order Form is a custom feature that allows users to quickly add products to their cart from one single page.</p>
+<p>To create a new Quick Order Form, simple create a new simple product in BigCommerce. The product should not have any options or variants.</p>
+<p>To assign products to a Quick Order Form, you need to add the custom field 'group_products'. The value should be the ids of the products, separated by a comma.</p>
+<p><img alt="quick-order-inst.png" src="../img/quick-order-inst.png" /></p>
+<p>Please note that the custom field value has a limit of characters, so you may need to split the products into multiple custom fields if you have a lot of products. You need to use the same custom field name 'group_products' in all of them. Don't need to add a comma in the last number of each custom field value.</p>
+<p>To get a product ID, go to the Products tab, look for the product you want to add and hover over it. You will see at the bottom, a number in the url. That's the ID of the product.</p>
+<p><img alt="quick-order-inst2.png" src="../img/quick-order-inst2.png" /></p>
               
             </div>
           </div><footer>
